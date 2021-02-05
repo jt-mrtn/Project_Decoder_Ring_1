@@ -3,6 +3,7 @@
 
 
 
+
 ## Caesar Shift
 ``` 
 caesar("Zebra Magazine", 3) => "cheud pdjdclqh"
@@ -14,6 +15,7 @@ caesar("Zebra Magazine", 3) => "cheud pdjdclqh"
 
 
 
+
 ## Polybius Square
 ``` 
 polybius("message") => "23513434112251"
@@ -22,6 +24,7 @@ polybius("message") => "23513434112251"
 * When decoding, it translates 42 to (i/j).
 * It ignores capital letters. For example, the results of 'A SECRET' and 'a secret' will be the same.
 * It maintains spaces in the message, before and after encoding or decoding.
+
 
 
 
