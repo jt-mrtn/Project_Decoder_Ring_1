@@ -2,8 +2,9 @@
  Ciphering challenges - Caesar Shift, Polybius Square and Substitution
 
 ## Caesar Shift
-* Example: *
-``` caesar("Zebra Magazine", 3) => "cheud pdjdclqh"
+
+``` 
+caesar("Zebra Magazine", 3) => "cheud pdjdclqh"
 ```
 * It returns false if the shift value is equal to 0, less than -25, greater than 25, or not present.
 * It ignores capital letters. For example, the results of 'A SECRET' and 'a sercret' will be the same.
